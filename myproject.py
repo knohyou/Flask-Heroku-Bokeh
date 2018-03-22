@@ -1,12 +1,13 @@
+import os
 from flask import Flask
-myproject = Flask(__name__)
 
-@myproject.route('/')
-def hello_world_lulu():
-    # this is a comment, just like in Python
-    # note that the function name and the route argument
-    # do not need to be the same.
+app = Flask(__name__)
+
+@app.route('/')
+def hello():
     return 'Hello World!'
 
 if __name__ == '__main__':
-    myproject.run(debug=True)
+    # Bind to PORT if defined, otherwise default to 5000.
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port)

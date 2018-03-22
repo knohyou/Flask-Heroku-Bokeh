@@ -24,6 +24,7 @@ $ git push heroku master
 $ heroku ps:scale web=1
 $ heroku open
 ```
+If everything went smoothly, the final deployed application should be the same as mine. https://simple-heroku-flask.herokuapp.com/
 
 ## Running the app locally through heroku
 If using Windows, run code below 

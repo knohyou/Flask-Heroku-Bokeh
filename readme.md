@@ -35,9 +35,9 @@ Open http://localhost:5000 in browser to see app running locally
 
 
 ## Acknowledgments
-Here are some additional resources and tutorials to follow 
-https://github.com/bev-a-tron/MyFlaskTutorial
-Bokeh code pulled from 
-https://github.com/bokeh/bokeh/tree/master/examples/embed/simple
+Here are some additional resources and tutorials to follow
+
+* https://github.com/bev-a-tron/MyFlaskTutorial
+* Bokeh code pulled from https://github.com/bokeh/bokeh/tree/master/examples/embed/simple
 
 

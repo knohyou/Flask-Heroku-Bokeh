@@ -1,7 +1,6 @@
 # Demonstration of a standalone bokeh document into a simple Flask application deployed on Heroku 
-
-## Basic Overview
-These instructions will get you a copy of the project up and running on your local machine. See deployment for notes on how to deploy the project on a live system.
+Final product can be seen at https://simple-heroku-flask.herokuapp.com/.
+Follow instructions below to get the project running on your local machine and heroku. 
 
 ### Prerequisites
 * Setup a free Heroku account
